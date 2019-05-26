@@ -7,16 +7,16 @@
   },
   "@graph": [
     {
-      "@id": "https://me.examples.open-network.dev/profile",
+      "@id": "https://me.examples.open-network.dev/profile.jsonld",
       "@type": "http://xmlns.com/foaf/0.1/PersonalProfileDocument",
       "foaf:primaryTopic": [
         {
-          "@id": "https://me.examples.open-network.dev/profile#me"
+          "@id": "https://me.examples.open-network.dev/profile.jsonld#me"
         }
       ]
     },
     {
-      "@id": "https://me.examples.open-network.dev/profile#me",
+      "@id": "https://me.examples.open-network.dev/profile.jsonld#me",
       "@type": [
         "http://schema.org/Person",
         "http://xmlns.com/foaf/0.1/Person"
@@ -24,12 +24,12 @@
       "foaf:name": "Open Network",
       "cert:key": [
         {
-          "@id": "https://me.examples.open-network.dev/profile#key1"
+          "@id": "https://me.examples.open-network.dev/profile.jsonld#key1"
         }
       ]
     },
     {
-      "@id": "https://me.examples.open-network.dev/profile#key1",
+      "@id": "https://me.examples.open-network.dev/profile.jsonld#key1",
       "@type": "cert:RSAPublicKey",
       "cert:exponent": 65537,
       "cert:modulus": {
